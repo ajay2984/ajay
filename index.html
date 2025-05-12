@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bakery Shop</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fefde6; text-align: center; margin: 0; padding: 0;">
+
+  <h1 style="color: #5b3e1d; padding: 20px;">Welcome to Our Bakery</h1>
+
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+
+    <!-- Chocolate Cake Card -->
+    <div style="background-color: #fde4c3; border-radius: 10px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="https://source.unsplash.com/300x200/?chocolate-cake" alt="Chocolate Cake" style="width: 100%; border-radius: 8px;">
+      <h2 style="color: #5b3e1d;">Chocolate Cake</h2>
+      <table style="width: 100%; margin-bottom: 15px;">
+        <tr>
+          <th style="text-align: left;">Feature</th>
+          <th style="text-align: left;">Details</th>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td>Rs.700</td>
+        </tr>
+        <tr>
+          <td>Availability</td>
+          <td>In Stock</td>
+        </tr>
+      </table>
+      <label>Quantity: </label>
+      <input type="number" value="1" style="width: 60px;">
+      <br><br>
+      <button style="background-color: #804000; color: white; padding: 8px 16px; border: none; border-radius: 4px;">Add to Cart</button>
+    </div>
+
+    <!-- Fresh Bread Card -->
+    <div style="background-color: #fde4c3; border-radius: 10px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="https://source.unsplash.com/300x200/?bread" alt="Fresh Bread" style="width: 100%; border-radius: 8px;">
+      <h2 style="color: #5b3e1d;">Fresh Bread</h2>
+      <table style="width: 100%; margin-bottom: 15px;">
+        <tr>
+          <th style="text-align: left;">Feature</th>
+          <th style="text-align: left;">Details</th>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td>Rs.150</td>
+        </tr>
+        <tr>
+          <td>Availability</td>
+          <td>In Stock</td>
+        </tr>
+      </table>
+      <label>Quantity: </label>
+      <input type="number" value="1" style="width: 60px;">
+      <br><br>
+      <button style="background-color: #804000; color: white; padding: 8px 16px; border: none; border-radius: 4px;">Add to Cart</button>
+    </div>
+
+  </div>
+
+  <!-- Contact / Order Form (moved before video) -->
+  <h2 style="color: #5b3e1d; margin-top: 50px;">Place an Order / Contact Us</h2>
+  <form style="max-width: 400px; margin: 0 auto; background-color: #fff7e6; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+   
+    <label for="name" style="display: block; margin-bottom: 8px; text-align: left;">Full Name:</label>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 15px;">
+
+    <label for="email" style="display: block; margin-bottom: 8px; text-align: left;">Email:</label>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 15px;">
+
+    <label for="message" style="display: block; margin-bottom: 8px; text-align: left;">Message / Order Details:</label>
+    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+
+    <button type="submit" style="margin-top: 15px; background-color: #804000; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">Submit</button>
+  </form>
+
+  <!-- Video Section -->
+  <h2 style="margin-top: 50px; color: #5b3e1d;">Bakery Showcase</h2>
+  <video width="400" controls style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <source src="bakery-showcase.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br><br>
+</body>
+</html>
